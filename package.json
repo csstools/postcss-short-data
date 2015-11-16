@@ -1,0 +1,13 @@
+{
+  "name": "gh-pages",
+  "private": true,
+  "dependencies": {
+    "dacoda": "^2.0.0",
+    "postcss": "^5.0.12",
+    "postcss-short-data": "^1.1.0"
+  },
+  "scripts": {
+    "build": "browserify index.source.js | uglifyjs -c > index.js",
+    "watch": "watchify index.source.js -o index.js"
+  }
+}
