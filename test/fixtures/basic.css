@@ -2,10 +2,10 @@ div[active] {
 	background-color: red;
 }
 
-div[:active] {
+div[-active] {
 	background-color: white;
 }
 
-div[:active~="true"] {
+div[-active~="true"] {
 	background-color: blue;
 }
