@@ -1,0 +1,7 @@
+[data-foo=1] [data-bar=2] {
+	background-color: red;
+}
+
+[data-foo=1] [data-bar=2] [data-baz] {
+	background-color: white;
+}

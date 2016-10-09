@@ -1,0 +1,7 @@
+[-foo=1] [-bar=2] {
+	background-color: red;
+}
+
+[-foo=1] [-bar=2] [-baz] {
+	background-color: white;
+}
