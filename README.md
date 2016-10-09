@@ -9,11 +9,11 @@
 ```css
 /* before */
 
-nav a[:active] {
+nav a[-active] {
 	background: #f3f3f3;
 }
 
-button[:target~="main"] {
+button[-target~="main"] {
 	background: #334332;
 }
 
