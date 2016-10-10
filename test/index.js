@@ -1,7 +1,10 @@
 var tests = {
 	'postcss-short-data': {
-		'basic': {
+		basic: {
 			message: 'supports basic usage'
+		},
+		multiple: {
+			message: 'replaces all occurencies'
 		}
 	}
 };
